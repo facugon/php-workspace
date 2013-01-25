@@ -1,0 +1,2607 @@
+@charset "UTF-8";
+
+/* 
+	CSS Document for Viapool
+	Date: 03-01-2008
+	
+	************ DOCUMENTO CON DISEÑO PARA SECCIONES ************
+	
+	Version: 1.0
+	
+*/
+
+
+/* Box BUSCAR
+-------------------------------------------------- */
+
+#box_buscar input.campos {
+	width: 275px;
+}
+
+#box_buscar input.form_btn {
+	margin-top: 30px;
+}
+
+
+/* Box DETALLES
+-------------------------------------------------- */
+
+#box_detalles {
+		width: 350px;
+}
+
+#box_detalles ul {
+	margin-top: 5px;
+}
+
+#box_detalles ul li {
+	border-bottom: 1px solid #dadada;
+	line-height: 20px;
+	padding-left: 30px;
+}
+
+#box_detalles ul li.icon_auto {
+	background: url(/common/images/icon_auto.gif) no-repeat 3px 0;
+}
+#box_detalles ul li.icon_info {
+	background: #fff url(/common/images/icon_info.gif) no-repeat 3px 0;
+}
+#box_detalles ul li.icon_people {
+	background: url(/common/images/icon_pelados.gif) no-repeat 3px 0;
+}
+#box_detalles ul li.icon_sobre {
+	background: #fff url(/common/images/icon_email.gif) no-repeat 3px 0;
+}
+
+
+/* Box RECOMENDAR A UN AMIGO
+-------------------------------------------------- */
+
+#box_recomendar input.campos {
+	width: 110px;
+	margin-left: 5px;
+}
+
+#box_recomendar input.form_btn {
+	margin-top: 70px;
+}
+
+#box_recomendar form {
+	background: url(/common/images/recomendar_bg.gif) no-repeat 210px 10px;
+}
+
+#box_recomendar label {
+	margin: 7px 0 0 0;
+}
+
+
+/* Box ARME SU POOL
+-------------------------------------------------- */
+
+#box_armarpool {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+}
+
+
+#box_armarpool {
+	width: 430px;
+}
+
+#box_armarpool #rightcol {
+	width: 270px;
+}
+
+#box_armarpoolmapa {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+	height: 800px;
+}
+
+#box_armarpoolmapa_miubicacion {
+    width: 702px;
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+	height: 450px;
+}
+
+#box_modificardomicilio {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+	height: 420px;
+}
+
+#box_viajeoneshot {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px 20px;
+	height: 440px;
+}
+
+#box_buscarviajesoneshot {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px 20px;
+    height: 457px;
+}
+
+#box_buscarviajestaxi {
+	/*
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px 20px;
+    height: 520px;
+*/
+	margin: 15px 0 15px 0;
+	padding: 10px;
+    width: 650px;
+}
+
+
+#box_mischarters {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+    width: 725px;
+}
+
+#box_cg {
+	margin: 8px 0 8px 0;
+	padding: 5 px;
+    width: 725px;
+}
+
+
+#box_ampliarinfoparadacharter {
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	margin: 15px 0 15px 0;
+	padding: 10px;
+    width: 600px;
+}
+
+.tabsmostrarviajesos {
+    width: 380px;
+    height: 170px;
+}
+
+#box_armarpoolmapa {
+	width: 430px;
+}
+
+#box_armarpoolmapa #rightcol {
+	width: 270px;
+}
+
+#box_crearviaje {
+	width: 420px;
+}
+
+#box_armarpool form {
+	margin: 15px 0 15px 0;
+}
+
+#box_armarpool select {
+	margin: 15px 0 15px 0;
+}
+
+#box_armarpool .campos {
+	width: 195px;
+}
+
+span.icon_origem {
+	background: url(/common/images/icon_pontoorigem.gif) no-repeat center left;
+	padding-left: 22px;
+	margin-left: 3px;
+	height: 25px;
+	display: block;
+}
+
+span.icon_destino {
+	background: url(/common/images/icon_pontodestino.gif) no-repeat center left;
+	padding-left: 22px;
+	margin-left: 3px;
+	height: 25px;
+	display: block;
+}
+
+#box_armarpool .form_btn {
+	padding-left: 7px;
+	line-height: 25px;
+}
+
+#box_armarpool p {
+	padding: 0;
+	margin: 0 0 15px 0;
+	color: #999999;
+	line-height: 12px;
+}
+
+#box_armarpool p a {
+	color: #999999;
+}
+
+#box_armarpool .pesquisar {
+	padding: 0;
+}
+
+
+/* Box SUGERIR CONTACTOS
+-------------------------------------------------- */
+
+#box_sugerir textarea {
+	width: 375px;
+	height: 80px;
+}
+
+#box_sugerir .light {
+	color: #a6a6a6;
+	line-height: 12px;
+	padding: 0;
+	margin: -3px 0 5px 0;
+	display: block;
+}
+
+#box_sugerir .campos {
+	width: 225px;
+}
+
+
+/* Box SUGERIR CONTACTOS
+-------------------------------------------------- */
+
+#box_sugerircontactos .arroba {
+	display: block;
+	height: 25px;
+	padding: 0 5px 0 5px;
+}
+
+
+/* Box INGRESE SEUS DADOS
+-------------------------------------------------- */
+
+#box_seusdados {
+	margin-top: 0px;
+}
+
+#box_seusdados form {
+	background: url(/common/images/login-home.png) no-repeat 320px 25px;
+}
+
+
+/* Box INGRESE SEUS VIAGENS
+-------------------------------------------------- */
+
+#box_altaviagens {
+	margin-top: 0px;
+}
+
+#box_altaviagens form {
+	background: url(/common/images/login-home.png) no-repeat 320px 25px;
+}
+
+
+/* Box BUSQUEDA ESTANDARD
+-------------------------------------------------- */
+
+#box_busquedastandard div.item {
+	margin-right: 10px;
+}
+
+
+/* Box DATA
+-------------------------------------------------- */
+
+.box_data #box_a {
+	width: 96px;
+}
+
+.box_data #box_b {
+	width: 250px;
+}
+
+.box_data #box_b p {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 5px !important;
+}
+
+.box_data #box_d {
+	width: 240px;
+}
+
+.box_data #box_d p {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 5px !important;
+}
+
+
+.box_data #box_a img {
+	margin-top: 0px;
+	border: 0px solid #c0c0c0;
+}
+
+.box_data {
+	margin-bottom: 10px;
+}
+
+.box_data #box_registrese {
+	width: 260px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.box_data #box_coincidencias {
+	width: 240px;
+}
+
+.box_data #box_coincidencias p {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 5px !important;
+}
+
+.box_data #box_coincidenciasenc {
+	width: 280px;
+}
+
+.box_data #box_coincidenciasenc p {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 5px !important;
+}
+
+#titulobox {
+	width: 240px;
+}
+
+#tituloboxmispools {
+	width: 350px;
+}
+
+
+
+.box_data #abajo_foto_coincidencias {
+	width: 370px;
+}
+.box_data #abajo_foto_masinfopools {
+	width: 420px;
+}
+.box_data #abajo_foto_sugerencias {
+	width: 85px;
+}
+.box_data #abajo_foto_sug_enviadas {
+	width: 420px;
+}
+
+.box_data #abajo_foto_sug_recibidas {
+	width: 420px;
+}
+
+
+
+
+.box_data #abajo_foto_contactos {
+	width: 500px;
+}
+
+.box_data #abajo_foto_mispools {
+	width: 500px;
+}
+
+.box_data #globito_coincidencias {
+	width: 250px;
+	padding: 15px 0 0 0 ;
+}
+
+.box_data #globito_sugrecmasinfo {
+	width: 370px;
+}
+
+
+.box_data #globito_masinfocoincidencias {
+	width: 150px;
+	padding: 0 15px 0 0 ;
+}
+
+
+div.box_data .resultado {
+	margin: 10px 0 10px 0;
+	border-top: 1px dotted #999;
+	padding-top: 10px;
+}
+
+
+/* Box RESULTADOS
+-------------------------------------------------- */
+
+#box_resultados {
+	margin-top: 15px;
+}
+
+
+/* Box MEUS POOLS
+-------------------------------------------------- */
+
+.box_data #box_a, .box_data #box_b {
+	margin-right: 10px;
+}
+
+
+/* Box SUGESTOES
+-------------------------------------------------- */
+
+#box_sugestoes .btn {
+	margin-top: 4px;
+	margin-right: 25px;
+}
+
+#box_sugestoesenvrec {
+	margin-top: 15px;
+	padding-top: 5px;
+}
+
+img.solapas {
+	margin-bottom: -18px;
+	margin-left: 3px;
+}
+
+img.solapas_modificar {
+	margin-bottom: -18px;
+	margin-left: 3px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+/* Box MEUS DADOS
+-------------------------------------------------- */
+
+#box_meusdados, #box_dadosdemeucarro {
+	margin-top: 10px;
+	width: 45%
+}
+
+#box_meusdados .campos, #box_dadosdemeucarro .campos {
+	width: 225px;
+}
+
+#box_meusdados form {
+	background: url(/common/images/login-home.png) no-repeat 475px 25px;
+}
+
+
+/* Box REGISTRESE
+-------------------------------------------------- */
+
+#box_registrese .campos {
+	width: 275px;
+}
+
+#box_registrese form {
+	background: url(/common/images/login-home.png) no-repeat 335px 25px;
+}
+
+/* Box NUBE DE TAGS
+-------------------------------------------------- */
+
+#box_listado .form_btn {
+	margin-top: 0px;
+}
+
+#box_tagsseleccionados {
+	margin: 5px 15px 0 15px;
+}
+
+#box_tagsseleccionados .tag {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #749501;
+	padding: 2px 5px 3px 5px;
+	margin-right: 5px;
+}
+
+#box_tagsseleccionados .tag a {
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 9px;
+	padding-left: 5px;
+}
+
+#box_tagcloud {
+	width: 300px;
+	margin: 0 auto;
+}
+
+/* Box USUARIO SUGERIDO
+-------------------------------------------------- */
+
+#box_usuariosugerido .afinidad {
+	background: url(/common/images/icon_afinidad.gif) no-repeat right center;
+}
+
+#box_meuspools {
+	width: 500px;
+}
+
+#box_encuesta {
+	width: 320px;
+}
+
+#box_masinfocoincidencias {
+	width: 370px;
+}
+
+#box_encuestapasoinicial {
+	padding-top: 15px;
+	width:  750px;
+	text-align: justify;
+}
+
+#box_tituloagregaroneshot {
+	padding-top: 15px;
+	width:  730px;
+	text-align: justify;
+}
+
+#box_tituloagregartaximodal {
+	width:  350px;
+}
+
+#enc_encuestapasocuatro {
+	width:  700px;
+}
+
+#box_encuestapasocuatro_izquierda {
+	width: 590px;
+	height: 1050px;
+}
+
+#box_encuestapasocuatro_final {
+	width: 750px;
+}
+
+
+#box_encuestapasocuatro_derecha {
+	width: 150px;
+	border: 1px;
+	border-top: 3px;
+	border-color: #d2d2d2;
+	border-style: solid;
+	background-color: #eaeaea;
+	height: 1050px;
+	
+} 
+
+/********************** Messages  */
+.success { color:#3d6611; }
+.error { color:#df280a; }
+.notice {color:#e26703; }
+.success, .error { font-weight:bold; }
+.messages { overflow:inherit; }
+.error-msg, .success-msg, .notice-msg, .note-msg { 
+    min-height:23px !important;
+    margin-bottom:1em !important;
+    border-style:solid !important;
+    border-width:1px !important;
+    background-repeat:no-repeat !important;
+    background-position:10px 10px !important;
+    padding:8px 8px 8px 32px !important;
+    padding: 
+    font-size:.95em !important;
+    font-weight:bold !important;
+    }
+.error-msg li, .success-msg li, .notice-msg li {margin-bottom:.2em; }
+.error-msg {
+    border-color:#f16048;
+    color:#df280a;
+    background-color:#faebe7;
+    background-image:url(/common/images/error_msg_icon.gif);    
+    }
+.success-msg {
+    border-color:#446423;
+    color:#3d6611;
+    background-color:#eff5ea;
+    background-image:url(/common/images/success_msg_icon.gif);
+    }
+.notice-msg, .note-msg {
+    border-color:#fcd344;
+    color:#3d6611;
+    background-color:#fafaec;
+    background-image:url(/common/images/note_msg_icon.gif);
+    }
+
+.msgagregaroneshot {
+    width: 700px;
+}
+
+.messagesmailalt {
+	display: block;
+	width: 700px;
+}
+
+/* 
+	CSS Document for Viapool
+	Date: 02-01-2008
+	
+	Version: 1.2
+	
+*/
+  
+ 
+/* General Formatting
+------------------------------------------------------- */
+
+html, body, h1, h2, h3, h5, h6, ul, li, p, form {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Tahoma", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+img {
+	border: none;
+}
+form {
+	display:inline;
+}
+
+
+/* IE7 Only */
+*:first-child+html #clear, #clearfix {
+	clear: both;
+}
+
+*:first-child+html #clearfix {
+	font-size: 0;
+	height: 0;
+	clear: both;
+}
+
+/* Safari Only */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #clear, #clearfix {
+	clear: both;
+}
+
+#clearfix {
+	font-size: 0;
+	height: 0;
+	clear: both;
+	padding-bottom: 20px;
+}
+}
+
+#padiframe {
+	padding-top: 10px;
+}
+
+.clear, .clearfix {
+	clear: both;
+}
+
+.clearfix {
+	font-size: 0;
+	height: 0;
+	clear: both;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.buscarcoincidencias {
+	background: url(/common/images/buscarcoincidencias.jpg) no-repeat; height: 20px; width: 148px center;
+	background-position:center;
+}
+
+.iconviaje {
+	background: url(/common/images/icon_viajes.jpg) no-repeat; height: 30px; width: 30px absmiddle;
+}
+
+.iconcontacto {
+	background: url(/common/images/icon_contacto.jpg) no-repeat; height: 30px; width: 30px absmiddle;
+}
+
+.iconinbox {
+	background: url(/common/images/icon_inbox.jpg) no-repeat; height: 30px; width: 30px absmiddle;
+}
+
+.iconinfo {
+	background: url(/common/images/icon_info.jpg) no-repeat; height: 30px; width: 30px absmiddle;
+}
+
+.titulo {
+	padding-left: 45px;
+	color: #777777;
+	font-size: 18px;
+	height: 1em;
+	font-weight:bold;
+}
+
+.titulo2 {
+	color: #777777;
+	font-size: 18px;
+	height: 1em;
+	font-weight:bold;
+}
+
+.titulo3 {
+	color: #777777;
+	font-size: 14px;
+	height: 1em;
+	font-weight:bold;
+}
+
+.descripcionencuesta {
+	background: #E3EFD6 url(/common/images/box1encuesta.jpg) no-repeat; height: 61px; width: 480px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+}
+
+.descripcion {
+	background: #E3EFD6 url(/common/images/box1.jpg) no-repeat; height: 61px; width: 480px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+}
+
+.descripcion2 {
+	background: url(/common/images/box2.jpg) no-repeat; height: 61px; width: 340px; 
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+}
+
+.descripcion3 {
+	background: #E3EFD6 url(/common/images/box3.jpg) no-repeat; height: 61px; width: 425px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+	
+}
+
+
+
+.descripcion4 {
+	background: #E3EFD6 url(/common/images/box4.jpg) no-repeat; height: 61px; width: 752px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+	
+}
+
+.descripcion5 {
+	background: #E3EFD6 url(/common/images/box5.jpg) no-repeat; height: 81px; width: 542px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+	
+}
+.descripcion6 {
+	background: #E3EFD6 url(/common/images/box6.jpg) no-repeat; height: 35px; width: 752px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+	
+}
+.descripcion7 {
+	background: #E3EFD6 url(box7.jpg) no-repeat; height: 37px; width: 422px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+	
+}
+.descripcion8 {
+	background: #E3EFD6 url(box8.jpg) no-repeat; height: 151px; width: 614px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+	
+}
+
+.descripcion10 {
+	background: #E3EFD6 url(/common/images/box10.jpg) no-repeat; height: 81px; width: 480px;
+	/*color: #6C9D31;*/
+	color: #6B6A64;
+	font-size: 12px;
+	filter: Shadow(Color=#CCCCCC, 	
+			Direction=135, 
+			Strength=1);
+}
+	
+}
+
+
+
+.contenido {
+	color: #707070;
+	font-size: 13px;
+}
+
+/*.rbroundbox { background: url(nt.gif) repeat; }
+.rbtop div { background: url(tl.gif) no-repeat top left; }
+.rbtop { background: url(tr.gif) no-repeat top right; }
+.rbbot div { background: url(bl.gif) no-repeat bottom left; }
+.rbbot { background: url(br.gif) no-repeat bottom right; }
+
+.rbtop div, .rbtop, .rbbot div, .rbbot {
+width: 100%;
+height: 7px;
+font-size: 1px;
+}
+.rbcontent { margin: 0 7px; }
+.rbroundbox { width: 50%; margin: 1em 0; }*/
+
+.fright {
+	float: right;
+}
+
+.fleft {
+	float: left;
+}
+
+.fnone {
+	float: none;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.centered {
+	text-align: center;
+}
+
+.centered2 {
+	align:center;
+	width: 790px;
+	padding:0px 0px 0px 0px;
+	margin: 0 auto;
+	clear: both; 
+	
+}
+
+.justify {
+	text-align: justify;
+}
+
+a {	text-decoration: none;
+	color: #1d7ec7;
+	cursor:hand;}
+
+a:link, a:visited {
+	/* text-decoration: underline; */
+	text-decoration: none;
+	color: #1d7ec7;
+	cursor:hand;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #1d7ec7;
+}	
+
+p {
+	line-height: 17px;
+}
+
+em {
+	font-style: normal;
+}
+
+.armeseupool {
+	font-size: larger;
+}
+
+/* Color Palette
+------------------------------------------------------- */
+
+
+.dark, .dark a {
+	color: #0a4f84;
+}
+
+.light, .light a, em {
+	color: #1d7ec7;
+}
+
+.darkgreen, .darkgreen a {
+	color: green;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+}
+
+.textonegro, .textonegro h1 {
+	color: #777778;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 10px;
+}
+
+.textonegroparadas {
+	color: #000000;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 10px;
+}
+
+.tituloformbusquedaviajeoneshot {
+	color: #000000;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 13px;
+}
+
+
+
+.textonegroespecial {
+	color: #333333;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 10px;	
+}
+
+.textonegrogrande {
+	color: #000000;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 12px;	
+}
+
+
+.textoblanco, .textoblanco h1 {
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 10px;
+}
+
+
+.textonologin {
+	color: #495E69;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+}
+
+.textonegro h3 {
+	font: bold;
+}
+.textonegro img {
+	padding-right: 15px;
+	padding-top: 3px;
+}
+
+.textotituloh1 {
+	color: #333333;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.fondoh1 {
+	background-color: #FFFFFF;
+}
+
+.textotituloh2 {
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 12px;
+}
+
+.fondoh2 {
+	background-color: #00B3ED;
+}
+
+.textotituloh3 {
+	color: #777778;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.fondoh3 {
+	background-color: #F4F4F4;
+}
+
+.textominimal {
+	color: #777778;
+	font: bold;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	text-align: justify;
+	font-size: 9px;
+}
+.fondominimal {
+	background-color: #FFFFFF;
+}
+
+
+/* Layout
+------------------------------------------------------- */
+
+#pagewidth {
+	width: 980px;   
+	margin: 0 auto; 
+	position:relative
+} 
+
+#header {
+	background: url(/common/images/header.gif) top left no-repeat; height:105px; 
+}
+
+
+
+
+#leftcol {
+	width: 425px;
+}
+
+#leftcolagregartaximodal {
+	width: 520px;
+}
+
+
+#leftcolbuscarviajesoneshot {
+	width: 910px;
+}
+
+#mischarters {
+	width: 690px;
+}
+
+#leftcolcharter {
+	width: 550px;
+}
+
+#leftcol_inscripcioncharter {
+	width: 704px;
+	float:right
+}
+
+#box_inscripcioncharter {width:220px!important; padding:0!important; margin:0!important}
+
+#form_inscripcioncharter {
+    width: 225px;    
+}
+
+#datoscharter_inscripcioncharter {
+    width: auto;    
+}
+
+#botonesagregaroneshot {
+    width: 270px;
+}
+
+#botonesagregarruta {
+    width: 80px;
+    margin-left: 10px;
+}
+
+
+
+#titulocol {
+	width: 425px;
+	padding-bottom: 15px;
+}
+
+
+#rightcol {
+	width: 300px;
+}
+
+#singlecol {
+	width: 500px;
+}
+
+#tabs_inscripcion {
+    height: 220px;
+}
+
+#paradasinscripcion {
+	width: 160px;
+}
+
+#frecuenciainscripcion {
+	width: 120px;
+}
+
+
+#mostrarmisviajescol {
+	width: 500px;
+}
+
+#registerbar {
+	width: 500px;
+}
+
+#textcol {
+	width: 500px;
+}
+
+#texthome {
+	width: 400px;
+}
+
+#texto_coincidencias {
+	width: 695px;
+}
+
+#texto_masinfo_pools {
+	width: 345px;
+}
+#texto_sugenvmasinfo {
+	width: 340px;
+}
+
+#coincidencias {
+	width: 380px;
+}
+
+#mostrarmisviajesoneshot {
+    width: 355px;
+}
+
+#masinfopools {
+	width: 380px;
+}
+
+#dialogo {
+	width: 500px;
+	padding: 15px 0 0 0;
+	margin: 15px 0 0 0;
+	border: 0;
+}
+
+h1 .textodialogo {
+	color: #1d7ec7;
+}
+
+#titulobox h3 {
+	color: #6daf1e;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+#tituloboxmispools h3 {
+	color: #6daf1e;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+#consumo {
+	width: 100px;
+	display: inline;
+}
+
+
+#emisiones {
+	width: 100px;
+	display: inline;
+}
+
+.commonbox {
+	background: #f4f4f4 url(/common/images/box_bg.png) repeat-x top right;
+	border: 1px solid #c0c0c0;
+	padding: 5px 10px 10px 10px;
+	margin: 0 0 0 0;
+}
+
+.commonbox #box_sugestoesenvrec {
+	background: #f4f4f4 url(/common/images/box_bg.png) repeat-x top right;
+	border: 1px solid #c0c0c0;
+}
+
+
+.commonbox h3 {
+	height: 20px;
+	font-size: 12px;
+	padding:   0 0 5px 0;
+	color: #495e69;
+}
+
+.commonbox p {
+	padding: 0 !important;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	line-height: normal !important;
+}
+
+.commonbox_center {
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.btn_text a {
+	display: inline;
+	background-color: #CCCCCC;
+	border: 1px solid #999;
+	padding: 2px 3px 2px 3px;
+	color: #495e69;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+p.edit a {
+	background: url(/common/images/edit.gif) no-repeat top right;
+	padding-right: 15px;
+	color: #333;
+}
+
+#registerbar a {
+	color: #1d7ec7;
+}
+
+/* MAP Formatting
+------------------------------------------------------- */
+#mapa_coincidencias {
+	margin-top: 15px;
+	padding-top: 45px;
+	width: 350px;
+}
+
+#mapa_misviajesoneshot {
+	width: 359px;
+}
+
+
+#mapa_masinfopools {
+	margin-top: 15px;
+}
+
+#mapa_sugenvmasinfo {
+	margin-top: 15px;
+	padding-top: 0px;
+}
+
+#mapa_sugrecmasinfo {
+	margin-top: 15px;
+	padding-top: 0px;
+}
+
+#map {
+	overflow: hidden;
+	margin-left:4px;
+	float:right
+}
+
+/* TABLES Layouts
+------------------------------------------------------- */
+
+table.common {
+	margin-top: 15px;
+}
+
+table.common, table.common td {
+	/*border: 1px solid #c0c0c0;*/
+	border: 0px solid #c0c0c0;
+}
+
+tr.content td {
+	padding: 5px 10px 15px 10px;
+	/*background-color: #f4f4f4;*/
+	background-color: #eff3de;
+}
+tr.mainAreaInternal td {
+	padding: 5px 10px 5px 10px;
+	background-color: #eff3de;
+}
+
+table.common p, table.common td p {
+	padding: 0px 0px 5px 0px !important;
+	line-height: 15px;
+}
+
+tr.table_title td {
+	padding: 5px 10px 5px 10px;
+	/*color: #fff;*/
+	color: #000000;
+	vertical-align: middle;
+	text-align: center;
+}
+
+tr.table_verde {
+	/*background: #6a833e url(/common/images/bg_verde.png) repeat-x;*/
+	background: #6a833e url(/common/images/bg_verde2.jpg) repeat-x;
+}
+
+tr.table_azul {
+	background: #0082d5 url(/common/images/bg_azul.png) repeat-x;
+}	
+
+tr.table_gris {
+	background: #e0e0e0 url(/common/images/bg_gris.png) repeat-x;
+}	
+
+td.bottom {
+	vertical-align: bottom;
+}
+
+td.top {
+	vertical-align: top;
+}
+
+td.buttons {
+	/*background: #e2e2e2 url(bg_gris.png) repeat-x;*/
+	background: #bdd86d url(/common/images/bg_verde2.jpg) repeat-x;
+	padding: 7px 0 0 0;
+}
+
+td.tablanombreviaje {
+	width: 130px;
+}
+
+td.tablaperfil {
+	width: 15px;
+}
+
+td.tablaroteiros {
+	width: 80px;
+}
+
+td.tablahorarios {
+	width: 150px;
+}
+
+td.tabladatosviaje {
+	width: 200px;
+}
+
+/* Header Formatting
+------------------------------------------------------- */
+
+#header a h1 {
+	text-indent: -9999px;
+	width: 250px;
+	height: 80px;
+	background: url(/common/images/main_logo.png) no-repeat;
+	margin: 12px 0 0 28px;
+	padding:0
+}
+
+
+.head_info {
+	/* margin-top: 20px;	 */
+	color: #999999;
+}
+
+.head_info p {
+	text-align: right;
+	padding-right: 15px;
+	line-height: 4px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+/* MENU AUXILIAR */
+
+#navigation_pt {
+	width: 510px;
+	height: 32px;
+	background: url(/common/images/pt_BR/nav.png) no-repeat;
+}
+
+	ul#navigation_pt li {
+		padding:0;
+		margin:0;
+		display:block;
+		float:left;
+		text-indent:-9999px;	
+	}
+		
+	ul#navigation_pt li a {
+		border:0;
+		display:block;
+		text-decoration:none;
+		overflow:hidden;
+		background:transparent url(/common/images/pt_BR/nav.png) no-repeat;
+	}
+	
+	li#nav1 a {
+		width: 119px;
+		height: 32px;
+	}
+	
+	li#nav2 a {
+		width: 90px;
+		height: 32px;
+	}
+	
+	li#nav3 a {
+		width: 117px;
+		height: 32px;
+	}
+	
+	li#nav4 a {
+		width: 84px;
+		height: 32px;
+	}
+	
+	li#nav5 a {
+		width: 100px;
+		height: 32px;
+	}
+	
+	li#nav1 a:hover, li#nav1 a:focus {
+		background-position:0px -64px;
+		 }
+	li#nav2 a:link, li#nav2 a:visited {	
+		background-position:-119px 0px;
+		}
+	li#nav2 a:hover, li#nav2 a:focus {	
+		background-position:-119px -64px;
+		}
+	li#nav3 a:link, li#nav3 a:visited {	
+		background-position:-210px 0px;
+		}
+	li#nav3 a:hover, li#nav3 a:focus {	
+		background-position:-210px -64px;
+		}
+	li#nav4 a:link, li#nav4 a:visited {	
+		background-position:-327px 0px;
+		}
+	li#nav4 a:hover, li#nav4 a:focus {	
+		background-position:-327px -64px;
+		}
+	li#nav5 a:link, li#nav5 a:visited {	
+		background-position:-410px 0px;
+		}
+	li#nav5 a:hover, li#nav5 a:focus {	
+		background-position:-410px -64px;
+		}
+	
+	
+	body#viagens-page ul#navigation_pt_BR li#nav1 a {
+		background-position:0px -32px;
+	}
+	body#pools-page ul#navigation_pt_BR li#nav2 a {
+		background-position:-119px -32px;
+	}
+	body#contatos-page ul#navigation_pt_BR li#nav3 a {
+		background-position:-210px -32px;
+	}
+	body#inbox-page ul#navigation_pt_BR li#nav4 a {
+		background-position:-327px -32px;
+	}
+	body#dados-page ul#navigation_pt_BR li#nav5 a {
+		background-position:-410px -32px;
+	}
+	
+/* FIN MENU EN PORTUGUES /*
+
+/* MENU EN PORTUGUES */
+
+#navigation_pt_BR {
+	width: 510px;
+	height: 32px;
+	background: url(/common/images/pt_BR/nav.png) no-repeat;
+}
+
+	ul#navigation_pt_BR li {
+		padding:0;
+		margin:0;
+		display:block;
+		float:left;
+		text-indent:-9999px;	
+	}
+		
+	ul#navigation_pt_BR li a {
+		border:0;
+		display:block;
+		text-decoration:none;
+		overflow:hidden;
+		background:transparent url(/common/images/pt_BR/nav.png) no-repeat;
+	}
+	
+	li#nav1 a {
+		width: 119px;
+		height: 32px;
+	}
+	
+	li#nav2 a {
+		width: 90px;
+		height: 32px;
+	}
+	
+	li#nav3 a {
+		width: 117px;
+		height: 32px;
+	}
+	
+	li#nav4 a {
+		width: 84px;
+		height: 32px;
+	}
+	
+	li#nav5 a {
+		width: 100px;
+		height: 32px;
+	}
+	
+	li#nav1 a:hover, li#nav1 a:focus {
+		background-position:0px -64px;
+		 }
+	li#nav2 a:link, li#nav2 a:visited {	
+		background-position:-119px 0px;
+		}
+	li#nav2 a:hover, li#nav2 a:focus {	
+		background-position:-119px -64px;
+		}
+	li#nav3 a:link, li#nav3 a:visited {	
+		background-position:-210px 0px;
+		}
+	li#nav3 a:hover, li#nav3 a:focus {	
+		background-position:-210px -64px;
+		}
+	li#nav4 a:link, li#nav4 a:visited {	
+		background-position:-327px 0px;
+		}
+	li#nav4 a:hover, li#nav4 a:focus {	
+		background-position:-327px -64px;
+		}
+	li#nav5 a:link, li#nav5 a:visited {	
+		background-position:-410px 0px;
+		}
+	li#nav5 a:hover, li#nav5 a:focus {	
+		background-position:-410px -64px;
+		}
+	
+	
+	body#viagens-page ul#navigation_pt_BR li#nav1 a {
+		background-position:0px -32px;
+	}
+	body#pools-page ul#navigation_pt_BR li#nav2 a {
+		background-position:-119px -32px;
+	}
+	body#contatos-page ul#navigation_pt_BR li#nav3 a {
+		background-position:-210px -32px;
+	}
+	body#inbox-page ul#navigation_pt_BR li#nav4 a {
+		background-position:-327px -32px;
+	}
+	body#dados-page ul#navigation_pt_BR li#nav5 a {
+		background-position:-410px -32px;
+	}
+	
+/* FIN MENU EN PORTUGUES /*
+	
+/* MENU EN ESPAÑOL */
+
+#navigation_es_AR {
+	width: 510px;
+	height: 32px;
+	background: url(/common/images/es_AR/nav.png) no-repeat;
+}
+
+	ul#navigation_es_AR li {
+		padding:0;
+		margin:0;
+		display:block;
+		float:left;
+		text-indent:-9999px;	
+	}
+		
+	ul#navigation_es_AR li a {
+		border:0;
+		display:block;
+		text-decoration:none;
+		overflow:hidden;
+		background:transparent url(/common/images/es_AR/nav.png) no-repeat;
+	}
+	
+	li#nav1 a {
+		width: 119px;
+		height: 32px;
+	}
+	
+	li#nav2 a {
+		width: 90px;
+		height: 32px;
+	}
+	
+	li#nav3 a {
+		width: 117px;
+		height: 32px;
+	}
+	
+	li#nav4 a {
+		width: 84px;
+		height: 32px;
+	}
+	
+	li#nav5 a {
+		width: 100px;
+		height: 32px;
+	}
+	
+	li#nav1 a:hover, li#nav1 a:focus {
+		background-position:0px -64px;
+		 }
+	li#nav2 a:link, li#nav2 a:visited {	
+		background-position:-119px 0px;
+		}
+	li#nav2 a:hover, li#nav2 a:focus {	
+		background-position:-119px -64px;
+		}
+	li#nav3 a:link, li#nav3 a:visited {	
+		background-position:-210px 0px;
+		}
+	li#nav3 a:hover, li#nav3 a:focus {	
+		background-position:-210px -64px;
+		}
+	li#nav4 a:link, li#nav4 a:visited {	
+		background-position:-327px 0px;
+		}
+	li#nav4 a:hover, li#nav4 a:focus {	
+		background-position:-327px -64px;
+		}
+	li#nav5 a:link, li#nav5 a:visited {	
+		background-position:-410px 0px;
+		}
+	li#nav5 a:hover, li#nav5 a:focus {	
+		background-position:-410px -64px;
+		}
+	
+	
+	body#viagens-page ul#navigation_es_AR li#nav1 a {
+		background-position:0px -32px;
+	}
+	body#pools-page ul#navigation_es_AR li#nav2 a {
+		background-position:-119px -32px;
+	}
+	body#contatos-page ul#navigation_es_AR li#nav3 a {
+		background-position:-210px -32px;
+	}
+	body#inbox-page ul#navigation_es_AR li#nav4 a {
+		background-position:-327px -32px;
+	}
+	body#dados-page ul#navigation_es_AR li#nav5 a {
+		background-position:-410px -32px;
+	}
+	
+/* FIN MENU EN ESPAÑOL */
+
+/* MENU EN INGLES */
+
+#navigation_en_US {
+	width: 510px;
+	height: 32px;
+	background: url(/common/images/en_US/nav.png) no-repeat;
+}
+
+	ul#navigation_en_US li {
+		padding:0;
+		margin:0;
+		display:block;
+		float:left;
+		text-indent:-9999px;	
+	}
+		
+	ul#navigation_en_US li a {
+		border:0;
+		display:block;
+		text-decoration:none;
+		overflow:hidden;
+		background:transparent url(/common/images/en_US/nav.png) no-repeat;
+	}
+	
+	li#nav1 a {
+		width: 119px;
+		height: 32px;
+	}
+	
+	li#nav2 a {
+		width: 90px;
+		height: 32px;
+	}
+	
+	li#nav3 a {
+		width: 117px;
+		height: 32px;
+	}
+	
+	li#nav4 a {
+		width: 84px;
+		height: 32px;
+	}
+	
+	li#nav5 a {
+		width: 100px;
+		height: 32px;
+	}
+	
+	li#nav1 a:hover, li#nav1 a:focus {
+		background-position:0px -64px;
+		 }
+	li#nav2 a:link, li#nav2 a:visited {	
+		background-position:-119px 0px;
+		}
+	li#nav2 a:hover, li#nav2 a:focus {	
+		background-position:-119px -64px;
+		}
+	li#nav3 a:link, li#nav3 a:visited {	
+		background-position:-210px 0px;
+		}
+	li#nav3 a:hover, li#nav3 a:focus {	
+		background-position:-210px -64px;
+		}
+	li#nav4 a:link, li#nav4 a:visited {	
+		background-position:-327px 0px;
+		}
+	li#nav4 a:hover, li#nav4 a:focus {	
+		background-position:-327px -64px;
+		}
+	li#nav5 a:link, li#nav5 a:visited {	
+		background-position:-410px 0px;
+		}
+	li#nav5 a:hover, li#nav5 a:focus {	
+		background-position:-410px -64px;
+		}
+	
+	
+	body#viagens-page ul#navigation_en_US li#nav1 a {
+		background-position:0px -32px;
+	}
+	body#pools-page ul#navigation_en_US li#nav2 a {
+		background-position:-119px -32px;
+	}
+	body#contatos-page ul#navigation_en_US li#nav3 a {
+		background-position:-210px -32px;
+	}
+	body#inbox-page ul#navigation_en_US li#nav4 a {
+		background-position:-327px -32px;
+	}
+	body#dados-page ul#navigation_en_US li#nav5 a {
+		background-position:-410px -32px;
+	}
+	
+/* FIN MENU EN INGLES */
+	
+	
+/* Content Formatting
+------------------------------------------------------- */
+
+
+#contentagregaroneshot {
+    /* height: 945px; */
+    height: 100%;
+}
+
+#contentbuscaroneshotgral {
+    /* height: 945px; */
+    height: 100%;
+}
+
+
+#content p {
+	padding: 4px 0 16px 0;
+}
+
+#content a {
+   cursor:pointer;
+   cursor:hand;
+}
+
+.plaintext h2, .plaintext h3 {
+	font-weight: bold;
+	color: #749501;
+	margin: 25px 0 7px 10px;
+}
+
+/* mainAreaInternal Formatting
+------------------------------------------------------- */
+
+#mainAreaInternal {
+	background: #fff url(/common/images/bg.gif) repeat-y;
+	padding: 24px;
+	margin-left:1px; 
+	min-height:200px;
+	
+}
+
+* html #mainAreaInternal {height:200px}
+
+.plaintext h2, .plaintext h3 {
+	font-weight: bold;
+	color: #749501;
+	margin: 25px 0 7px 10px;
+}
+
+
+/* Forms Formatting
+------------------------------------------------------- */
+
+label, select {
+	display: block;
+	margin: 10px 0 10px 0;
+	margin: 0;
+	line-height: 25px;
+	display:inline;
+}
+
+input, select, textarea, file {
+	border: 1px solid #b8b8b8 !important;
+	background: #fff url(/common/images/form_field_bg.gif) repeat-x top !important;
+	font-family: "Tahoma", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px !important;
+	color: #4a7b9d !important;
+	padding: 3px !important;
+	display:inline !important;
+}
+
+input.oculto {
+	visibility:hidden;
+}
+
+input.solotexto {
+	border: none;
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+}
+
+.btn_opaco {
+	filter: alpha(opacity=30); 
+	opacity: .3
+}
+
+.form_btn {
+	border: none !important;
+	background: none !important;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+.checkbox {
+	background: none;
+	border: none;
+	margin: 0 10px 0 2px;
+}
+
+
+/* GMaps Formatting
+------------------------------------------------------- */
+#infoglobo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+}
+
+
+/* Banners Formatting
+------------------------------------------------------- */
+
+.banner_728x90 {
+	border:none ; 
+
+}
+
+.banner_728x90_footer {
+	border:none ; 
+	margin-top: 20px;
+	padding-top: 20px;
+	
+
+}
+#publicidad_bottom {
+	border:none;
+}
+
+.banner160x600 {
+	border:none;
+	width: 160px;
+	height: 600px;
+}
+
+.banner300x250 {
+	margin: 0;
+	padding: 0;
+	border:none;
+	width: 300px;
+	height: 250px;
+}
+
+/* Tag Cloud
+------------------------------------------------------- */
+
+
+.uno {
+	font-size: 16px;
+}
+.dos {
+	font-size: 17.7px;
+}
+.tres {
+	font-size: 19px;
+}
+.cuatro {
+	font-size: 20px;
+}
+.cinco {
+	font-size: 22px;
+}
+.seis {
+	font-size: 24px;
+}
+.siete {
+	font-size: 26px;
+}
+.ocho {
+	font-size: 28px;
+}
+.nueve {
+	font-size: 30px;
+}
+.diez {
+	font-size: 32px;
+}
+.once {
+	font-size: 34px;
+}
+.doce {
+	font-size: 36px;
+}
+.trece {
+	font-size: 38px;
+}
+.catorce {
+	font-size: 40px;
+}
+.quince {
+	font-size: 41px;
+}
+.dieciseis {
+	font-size: 42px;
+}
+.diecisiete {
+	font-size: 43px;
+}
+.dieciocho {
+	font-size: 45px;
+}
+.diecinueve {
+	font-size: 47px;
+}
+.veinte {
+	font-size: 48px;
+}
+
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once, .doce, .trece, .catorce, .quince, .dieciseis, .diecisiete, .dieciocho, .diecinueve, .veinte {
+	padding: 0 2px 0 2px;
+	line-height: 18px;
+}
+
+
+ul.tags li {
+	padding: 3px 0 3px 0;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+
+
+/* Footer Formatting
+------------------------------------------------------- */
+
+#footerwidth {
+	padding-bottom:12px
+}
+
+#footer {
+	background: #0b78be url(/common/images/footer_bg.gif) top left no-repeat;
+	margin: 0 auto;
+	padding-top: 26px;
+	color: #fff;
+	width:979px;
+	height:55px
+}
+
+#footer a {
+	color: #fff;
+}
+
+#mainAreaLoading
+{
+    left:0px;
+    top:0px;
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:9999999999999; /* nada puede estar por arriba del area loading */
+    margin:0px;
+    padding:0px;
+    clear:none;
+    background: url("/common/images/diagonal_thick_40x40_transparent.png") repeat scroll ;
+    border:none;
+    text-align:left;
+}
+
+/*Fucking IE need an 'adjustment'*/
+* html #mainAreaLoading{
+      position: fixed;
+}
+
+/*Autocomplete*/
+div.autocomplete {
+    position:absolute;
+    width:250px;
+    background-color:white;
+    border:1px solid #888;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+div.autocomplete ul {
+    list-style-type:none;
+    margin:0px;	
+    padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ffb;}
+div.autocomplete ul li {
+    list-style-type:none;
+    display:block;
+    margin:0;
+    padding:2px;
+    height:32px;
+    cursor:pointer;
+}
+
+.ttp {
+    display: inline;
+}
+
+/*=======================================
+* Tooltips
+* ======================================*/
+
+/* simple css-based tooltip */
+.tooltip {
+    background-color:#000;
+    border:1px solid #fff;
+    padding:10px 15px;
+    width:200px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+
+    /* outline radius for mozilla/firefox only */
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+}
+
+/*
+
+.tooltip{
+   position: absolute;
+   padding: 10px 13px;
+   z-index: 3;
+   display: none; 
+   
+   color: #303030;
+   background-color: #f5f5b5;
+   border: 1px solid #DECA7E;
+   
+
+   font-family: verdana;    
+   font-size: 10px;
+   line-height: 10px;
+   text-align: left;
+   width: 200px;
+}
+
+   .tooltip h3{
+      margin: 0 0 5px;
+      text-align: left;
+   }
+*/
+/*=======================================
+* Modal Dialog
+* ======================================*/
+#dialog1{
+    width:500px;   
+    height:500px;  
+}
+#ampliarparadamischarters{
+    width:780px;   
+    height:600px;  
+}
+.alertsclass {
+    top: 10px;
+}
+
+
+/*=======================================
+* SPINNER
+* ======================================*/
+
+.ui-spinner {
+	width: 2.5em;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #999;
+	background: #FEFEFE url(/common/images/spinner-bg.gif) repeat-x left bottom;
+	/* padding: 0 5px; */
+}
+
+.ui-spinner-disabled {
+	background: #F4F4F4;
+	color: #CCC;
+}
+
+.ui-spinner-box {
+	width: 70%;
+	height: 100%;
+	float: left;
+	font-size: 10%;
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+.ui-spinner-up,
+.ui-spinner-down {
+	width: 45%;
+	height: 50%;
+	font-size: 0.5em;
+	padding: 0;
+	margin: 0;
+	z-index: 100;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+	cursor: default;
+	border: 1px solid #999;
+	border-right: none;
+	border-top: none;
+}
+
+.ui-spinner-down {
+	bottom: 0;
+	border-bottom: 0;
+}
+
+.ui-spinner-pressed {
+	background: #FEFEFE;
+}
+
+.ui-spinner-list,
+.ui-spinner-listitem {
+	margin: 0;
+	padding: 0;
+}
+
+
+/**********************************************************
+ *
+ * AUTH LOGIN Y LINKS NO LOGIN
+ *
+ **********************************************************/
+.combo-home {float:left; width:440px; padding: 8px 24px 16px 0}
+.combo-home img {float:left; padding:0 12px 30px 0}
+.combo-home h1 {color:#0b7ac0; font-size:2em}
+.combo-home .item {background: #fff url(/common/images/link.gif) left no-repeat; padding:2px 0 2px 20px; display:block; text-decoration:underline; color:#6c9d31; margin-left:98px}
+.combo-home p {margin-left:98px; padding:0!important}
+
+hr.border {clear:both; border:0; border-bottom:1px solid #ccc; margin:12px 0}
+
+a.sugerencias {
+        background: #fff url(/common/images/help-icon.gif) right no-repeat; 
+        position:absolute; top:78px; right:24px; padding:2px 24px 2px 0; display:block }
+a.registracion {
+        background: #fff url(/common/images/icon-detail2.gif) right no-repeat;
+        position:absolute; top:78px; right:24px; padding:2px 24px 2px 0; display:block }
+a.avisoadministrador {position:absolute; top:78px; right:250px; width: 200px; padding:2px 24px 2px 0; display:block}
+
+.internos { position:absolute; top:78px; right:2px; padding:2px 24px 2px 0; display:block }		
+.internoslogueado { position:absolute; top:120px; right:24px; padding:2px 24px 2px 0; display:block }
+
+#top_nav {width: 400px}
+#form_inscripcioncharter em a {
+    color:#6c9d31; font-weight:bold;background: #fff url(/common/images/back-icon.gif) left no-repeat; padding:2px 0 2px 20px; display:block}
+#grilladisponibilidad table {}
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    background:#0B7AC0!important; color:#fff!important}
+#tabs_inscripcion-frag-1 span {color:#0B7AC0; font-weight:bold}
+#tabs_inscripcion-frag-2 span {color:#0B7AC0}
+
+#mainAreaInternal #mainAreaInternal {display:none}
+span.head_info {position:absolute; top:40px; right:10px}
+.head_info a {padding-top:3px}
+#fcharter select {clear:left; display:block; margin-bottom:4px}
+.head_info #formul_login em {position:absolute;right:140px;top:-18px; color:red; font-size:11px; width: 420px}
+.head_info form {position:relative; margin-top:2px}
+.ui-widget-header {background:#0B7AC0!important;; color:#fff!important}
+#grilladisponibilidad span {color:#0B7AC0; font-size:1.2em}
+#popup_title {background:#0B7AC0!important;; color:#fff!important}
+input#popup_ok, input#popup_cancel {background: #476820 url(/common/images/form_field_bg_green.gif) repeat-x; border:0; color:#fff; font-weight:bold; cursor:pointer; padding:4px 6px}
+#detallescharter b {color:#0B7AC0}
+#box_mischarters {width:97%!important; border:1px solid #0B7AC0!important; background:#fff!important; color:#0B7AC0!important}
+#periodoscharter b {color:#0B7AC0}
+span.textonegrogrande {font-weight:bold; color:#0B7AC0; padding-bottom:2px; display:block}
+#box_buscarviajestaxi {background:none!important; border:0!important}
+#side_bar_busqueda input.form_btn {margin:0 2px -9px 0}
+h2 {font-size:2em; color:#6c9d31}
+.tituloformbusquedaviajeoneshot {color:#0B7AC0}
+#leftcolagregartaximodal a {display:block}
+#box_encuestapasoinicial span {font-size:1.2em; color:#1D7EC7}
+.inscribirse-charter {background: transparent url(/common/images/icon-insc.gif) left no-repeat; padding:2px 0 2px 20px; display:block; margin-top:12px}
+.verdisponibilidad-charter {background: transparent url(/common/images/icon-disp.gif) left no-repeat; padding:2px 0 2px 20px; display:block}
+.verdetalles-charter {background: transparent url(/common/images/icon-detail.gif) left no-repeat; padding:2px 0 2px 20px; display:block}
+#grilladisponibilidad table {width:100%}
+#grilladisponibilidad table th, #grilladisponibilidad table td {padding:2px 3px}
+#grilladisponibilidad table th, #grilladisponibilidad table thead th {text-align:left; color:#fff; background-color:#0B7AC0}
+tr.even {background-color:#f4f4f4}
+#micharter table {width:100%}
+.charter-ida, .charter-vuelta, .charters-ida, .charters-vuelta {display:block; font-size:1.2em; font-weight:bold; color:#6C9D31; margin-top:12px; clear:both}
+#charter-ida, #charter-vuelta {padding:8px; width:97%!important; background:#f4f4f4; margin-bottom:12px} 
+ul#circle li {list-style-type:disc; list-style-position:inside}
+/* .nologin h2 {background: transparent url(/common/images/combo-charters-res-small.png) left no-repeat; padding:8px 0 0 42px; font-size:2em} */
+.nologin h2 {font-size:2em}
+.nologin h4 {font-size:1.25em; font: normal "Trebuchet MS", Arial, Helvetica, sans-serif; color:#1D7EC7; margin:8px 0 0 0}
+select.inscripcion-charter{width: 220px}
+#divyoviajo, #divpasajext, #divpasajint {display:block; width:520px; margin-bottom:12px; padding-bottom:12px; border-bottom:1px solid #ccc}
+.modal-comentarios {  margin-top:12px; padding-top:12px}
+#divyoviajo-left {width:320px; float:left}
+#divyoviajo-right {}
+/*
+  #divpasajint label {background: transparent url(/common/images/icon-internos.gif) left top no-repeat; padding:4px 0 0 20px}
+  #divpasajext label {background: transparent url(/common/images/icon-externos.gif) left top no-repeat; padding:4px 0 0 20px}
+*/
+#divpasajint a {color:#0b7ac0; display:inline}
+#divpasajext a {color:#0b7ac0; display:inline}
+#divpasajint a:hover,#divpasajext a:hover {text-decoration:underline}
+#contentagregartaximodal,#contentbuscaroneshotgral {overflow:hidden!important}
+
+/* BUSCAR TAXIS */
+#buscartaxiefechahora {display:block; width:465px; padding:12px 0 0; float:left}
+ {margin: 0 10px}
+*:first-child+html #buscartaxifecha input#fecha {margin-left:-10px}
+* html #buscartaxifecha input#fecha {margin-left:-10px; float:left}
+#buscartaxidesde {display:block; width:465px; float:left; border-top:1px solid #ccc; margin-top:10px}
+#desdesite, #hastasite {margin-top: 7px; width: 175px}
+#provinciasal, #provinciadest {width: 160px}
+#localidadsal, #localidaddest {width: 96}
+#buscartaxihasta {display:block; width:465px; float:left; border-top:1px solid #ccc; margin-top:10px}
+.buscar-taxis-form th, .buscar-taxis-form td {width:220px; text-align:left; font-weight:normal; padding:3px 0 3px 8px}
+table.espera-pas td {padding:3px 8px}
+.blue-title {font-weight:bold; color:#0B7AC0}
+.alta-element-label {font-weight:bold; color:#0B7AC0; padding-right:40px;}
+.alta-element-input {}
+.buscar-taxis-form .input-small {width:30px}
+#buscartaxihastatextocontent label {padding-right:4px}
+#buscartaxiesperapasaj {display:block; width:465px; float:left; border-top:1px solid #ccc; margin-top:10px; padding:8px 0}
+#buscartaxiespera {display:inline; margin: 0 10px; margin-top: 2px}
+#buscartaxicantpasajeros {display:inline; margin-top: 2px}
+#buscartaxibotones {display:block; width:465px; border-top:1px solid #ccc; padding:12px 0; float:left; background-color:#f4f4f4}
+#buscartaxibotones table td {padding-left:8px}
+#buscartaxibotonagregar {padding-left:10px}
+#buscartaxibotonreiniciar {padding-left:70px}
+#salida, #destino {width: 180px}
+#side_bar_busqueda {background-color:#f4f4f4; width:464px; float:left; margin-right:10px; min-height: 382px}
+#side_bar_alta {padding: 6px; margin-right:10px; margin-top:10px;}
+.labeltelcontacto {padding-left:4px}
+table {border-collapse:collapse!important; border-spacing:0!important}
+#divpasajint-left {width:320px; float:left}
+#ccostoext {width:150px; margin-top: 9px}
+.inplace_field {width:150px}
+#divyoviajo-right {}
+.autopasajero {margin-top: 10px}
+#nombreext{margin-top: 10px}
+#divpasajint #pasajero {width:175px}
+#divpasajext #nombreext {width:175px}
+#motivos {width:183px}
+#motivosmens{width:172px}
+.ui-dialog-content table th,.ui-dialog-content table td {text-align:left; padding-top:2px}
+.ui-dialog-content .labeltelcontacto {padding-left:0}
+th.agregar-nombre {width:320px}
+.motivo {float:left; width:320px}
+.aerolineas {float:left; width:320px;}
+#datosvuelo {display:block; width:520px; margin-top:16px; padding-top:12px; border-top:1px solid #ccc}
+.modal-textarea {width:500px; height:60px}
+.ui-widget {font-family:Tahoma,"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif!important}
+th.table-top-left { background:#1D7EC7 url(/common/images/corner-left.gif) top left no-repeat}
+th.table-top-right { background:#1D7EC7 url(/common/images/corner-right.gif) top right no-repeat}
+.input-viajesconfirmar {width: 35px; margin-top: 2px; margin-left: 1px; font-size: 11px !important}
+.select-viajesconfirmar {width: 100px; margin-top: 6px}	
+.bigmap {padding-left:26px}
+.pagination {padding-bottom:4px}
+span.prev, span.next {cursor:pointer; color:#6C9D31; background:url("/common/images/back-icon.gif") no-repeat scroll left center transparent; padding:2px 0 2px 18px}
+span.next {background:url("/common/images/link.gif") no-repeat scroll right center transparent; padding:2px 18px 2px 0}
+.facturar-footer {padding-top:6px; width:100%; text-align:right}
+.facturar-footer .guardar {padding:0 4px}
+input.glass {background:url("/common/images/es_AR/btn_mag_glass.gif") no-repeat scroll right center transparent!important; display:block; width:23px; height:23px; border:0!important; cursor:pointer!important}
+
+.bgviajestaxi1 {background-color:#f4f4f4}
+.bgviajestaxi2 {background-color:#ffffff}
+
+#viajestaxi { font-family: "Tahoma", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color:#333; }
+#viajestaxi .ui-timepickr {font-size: 1.3em; margin-top: 1px !important}
+#viajestaxi table thead th {background-color:#1D7EC7; color:#fff; border:1px solid #fff; padding:2px 6px}
+#viajestaxi table {width:100%; border-collapse:collapse}
+#viajestaxi table tbody td {border:1px solid #f4f4f4; padding:6px}
+
+.viajestaxifactura-footer {padding-top:6px; width:100%; text-align:right}
+.viajestaxifactura-footer .desvincular {padding:0 4px}
+.viajestaxifactura-footer .rechazar {padding:0 4px}
+
+.titulo-indexreportestaxistd {	font-weight:bold; font-size: 15px; color: #6C9D31 }
+
+/*=======================================
+    BOTONES
+  ======================================= **/
+
+a.cargar, a.mostrar, a.crear, a.agregar, a.regla,
+a.cancelar, a.ok, a.actualizar, a.guardar, a.guardargris,
+a.enviar, a.preasignar, a.preasignargris { height: 23px; display: block; background: no-repeat top left; }
+
+a.cargar     { background-image: url("/common/images/btn-cargar.gif") ; width: 65px; }
+a.mostrar    { background-image: url("/common/images/btn-mostrar.gif") ; width: 65px; }
+a.crear      { background-image: url("/common/images/btn-crear.gif") ; width: 90px; }
+a.agregar    { background-image: url("/common/images/btn-agregar.gif") ; width: 65px; }
+a.regla      { background-image: url("/common/images/btn-regla.gif") ; width: 120px; }
+a.actualizar { background-image: url("/common/images/btn-actualizar.gif") ; width: 80px; }
+a.ok         { background-image: url("/common/images/btn_ok.png") ; width: 33px; }
+a.cancelar   { background-image: url("/common/images/btn_cancelar.png") ; width: 77px; }
+a.guardar    { background-image: url("/common/images/btn_guardar.png") ; width: 77px; }
+a.enviar     { background-image: url("/common/images/form-enviar.gif") ; width: 55px; }
+
+
+a.more-options {
+    background:url("/common/images/icon-detail2.gif") no-repeat scroll left center;
+    color:#6C9D31;
+    display:block;
+    padding:2px 0 2px 20px;
+}
+a.cancel {
+    background:url("/common/images/icon-cancel.gif") no-repeat scroll left center;
+    color:#ff0000;
+    display:block;
+    height:16px;
+    width:16px;
+}
+a.editar-lapiz {
+    background:url("/common/images/edit.gif") no-repeat scroll left center;
+    height:13px;
+    width:18px;
+    padding-right:19px;
+    float:right;
+}
+
+.inhabilitar {display:block}
+.inhabilitar th {text-align: left; color:#0B7AC0}
+.inhabilitar td {padding-left:12px}
+
+.password {
+    padding:4px 20px 4px 0;
+    background: url("/common/images/password.gif") 110px no-repeat; 
+    display:block; position: absolute; 
+    top:18px; right:5px; font-size:11px; 
+    font-style:normal; width:125px;
+}
+
+.password:hover {text-decoration:underline}
+
+.oculto {display:none;}
+
+/* ==================================================
+ * ESTILO UNIFICADO PARA TABLAS CON ESTILO VP
+ * ================================================== */
+
+#table-data { font-family: "Tahoma", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color:#333; }
+#table-data .ui-timepickr {font-size: 1.3em; margin-top: 1px !important}
+#table-data table thead th {background-color:#1D7EC7; color:#fff; border:1px solid #fff; padding:2px 6px}
+#table-data table {width:100%; border-collapse:collapse}
+#table-data table tbody td {border:1px solid #f4f4f4; padding:6px}
+
+.table-data { width: 100%; color: #333333; font-family: "Tahoma","Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-size: 11px; }
+.table-data th, .table-data td { padding: 2px 5px }
+.table-data th, .table-data thead { background:#1D7EC7; border:1px solid #fff; color:#fff; }
+.table-data td, .table-data tbody { border:1px solid #F4F4F4; padding: 5px; text-align:left;}
+.table-data .table-top-right { background: url("/common/images/corner-right.gif") no-repeat scroll right top #1D7EC7;  }
+.table-data .table-top-left  { background: url("/common/images/corner-left.gif") no-repeat scroll left top #1D7EC7;  }
+.table-data .table-tools { background: none repeat scroll 0 0 #CCCCCC; }
+.table-data .tool { height: 35px; }
+
+.row-delimiter {border: 0; width: 100%;color:#B8B8B8; background-color:#B8B8B8 ; height: 1px;}
+
+tr.tools {background: #ccc}
+.tools input { width:50px; }
+.tools .submit { width:auto; }
+
+/*===== HELPER PARA EL COLOR DE LAS FILAS DE TABLA */
+.color1 {background-color:#F4F4F4;}
+.color2 {background-color:#FFFFFF;}
+
+.verde1, .verde2 { background-color:#ACFFBF; }
+/*===== FIN */
+
+.sub-table th, .sub-table thead { background: none; border: 0; color: black; }
+.sub-table td , .sub-table th { padding: 1px; }
+
+.mensaje p { padding: 20px; margin-bottom: 40px;
+    background: url("/common/images/icon_info.gif") no-repeat center left;}
+
+.select-reporte { width: 268px; }
+.multiselect-reporte { height: 90px; }
+.input-reporte { width: 260px; }
+.td-reporte { padding-right: 20px; }
+
+.tabla-resultado { margin-bottom: 30px; }
+
+h1 {
+    color:#0B7AC0; 
+    font-size:1.4em;
+    padding-bottom:8px;
+}
+
+h1.usuarios-titulo, h1.carpool-titulo, h1.opcionespersonales-titulo, h1.taxis-titulo, h1.charters-titulo {
+    padding:8px 0 0 42px; 
+    font-size:2em;
+    margin-bottom: 30px;
+}
+
+h1.usuarios-titulo           { background: transparent url(/common/images/combo-options1small.png)      left no-repeat; }
+h1.carpool-titulo            { background: transparent url(/common/images/combo-charters-res-small.png) left no-repeat; }
+h1.opcionespersonales-titulo { background: transparent url(/common/images/combo-options1small.png)      left no-repeat; }
+h1.taxis-titulo              { background: transparent url(/common/images/combo-taxi-small.png)         left no-repeat; }
+h1.charters-titulo           { background: transparent url(/common/images/combo-charters-res-small.png) left no-repeat; }
+
+/*
+ * Z-INDEX 
+ * los popup de los alerts tienen z-index:99999
+ */
+
+#ui-datepicker-div { z-index: 901; }
+
+.ui-icon ui-icon-closethick { z-index:9001 }
+
+/*
+ * TABLA PACIENTES DENTRO DE VER TRASLADOS
+ */
+#vertraslados table.pacientes {
+    table-layout:fixed;
+    padding:0;
+    margin:0;
+    border:none;
+}
+
+#vertraslados td.pacientes {
+    padding:1px;
+    margin:0px;
+    border:none;
+}
+
+#vertraslados .pacientes .options {
+     text-align:right;
+}
+
+#asignacion table.traslados {
+    table-layout:fixed;
+    padding:0;
+    margin:0;
+    margin-top:5px;
+    margin-bottom:5px;
+    border:none;
+}
+
+#asignacion td.traslados {
+    padding:0.5px;
+    margin:0px;
+    border:none;
+}
+
+span.costoxtratamiento {
+	/* text-decoration: underline; */
+	text-decoration: none;
+	color: green;
+	cursor:hand;
+}
+
+span.costoxkilometro {
+	/* text-decoration: underline; */
+	text-decoration: none;
+	color: blue;
+	cursor:hand;
+}
+
+/* =======================================
+ * RECUADRO GRIS
+ * ======================================= */
+.recuadro {
+    border-color: #F4F4F4;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+}
