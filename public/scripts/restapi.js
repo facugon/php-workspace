@@ -5,12 +5,14 @@
  *
  */
 var RestData = {
-    host    : 'http://restbase.development',
-    recurso : 'index' ,
+    host    : 'http://api.development/payload/jsonrpc20/restful',
+    recurso : 'taxi' ,
     version : '2.0',
     id      : '1' ,
     getRecurso : function() {
-        return this.host + '/' + this.recurso ;
+        if( this.recurso )
+            return this.host + '/' + this.recurso ;
+            else return this.host + '/index' ;
     }
 }
 
@@ -73,8 +75,8 @@ function test_get()
 {
     RestJsonRpc.methodCall({
         method:"get",
-        resource: RestData.getRecurso() ,
-        params:{id:RestData.id, animal:'gato'},
+        resource: RestData.getRecurso() + '/id/' + RestData.id ,
+        params:{animal:'gato'},
         notify:true,
         success:function(response){ console.log(response); }
     });
